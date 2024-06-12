@@ -8,13 +8,13 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: rgb(250, 202, 70);
+    background: #e5e5e5;
     display: grid;
     place-items: center;
 }
 
 form {
-    background: linear-gradient(to right, yellow, orange);
+    background: #ffc845;
     padding: 80px;
     width: 50%;
     margin: 100px auto;
@@ -24,7 +24,7 @@ form {
     box-shadow: 0 10px 6px -6px #777;;
 }
 
-.temoCalc label {
+.tempCalc label {
     font-size: 30px;
 }
 
@@ -51,8 +51,8 @@ form {
     width: 100px;
     font-size: 15px;
     border: none;
-    background-color: black;
-    color: #fff;
+    background-color: #ffc845;
+    color: #black;
 }
 
 .resultContainer {
